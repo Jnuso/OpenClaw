@@ -25,6 +25,9 @@ const GOOGLE_GEMMA_MODEL_CATALOG = [
     name: "Gemma 3 1B Instruct",
     contextWindow: 32_000,
     input: ["text"],
+    compat: {
+      supportsTools: false,
+    },
   },
   {
     provider: "google",
@@ -32,6 +35,9 @@ const GOOGLE_GEMMA_MODEL_CATALOG = [
     name: "Gemma 3 4B Instruct",
     contextWindow: 128_000,
     input: ["text", "image"],
+    compat: {
+      supportsTools: false,
+    },
   },
   {
     provider: "google",
@@ -39,6 +45,9 @@ const GOOGLE_GEMMA_MODEL_CATALOG = [
     name: "Gemma 3 12B Instruct",
     contextWindow: 128_000,
     input: ["text", "image"],
+    compat: {
+      supportsTools: false,
+    },
   },
   {
     provider: "google",
@@ -46,6 +55,9 @@ const GOOGLE_GEMMA_MODEL_CATALOG = [
     name: "Gemma 3 27B Instruct",
     contextWindow: 128_000,
     input: ["text", "image"],
+    compat: {
+      supportsTools: false,
+    },
   },
   {
     provider: "google",
@@ -53,6 +65,9 @@ const GOOGLE_GEMMA_MODEL_CATALOG = [
     name: "Gemma 3n E4B Instruct",
     contextWindow: 32_000,
     input: ["text", "image"],
+    compat: {
+      supportsTools: false,
+    },
   },
 ] as const;
 

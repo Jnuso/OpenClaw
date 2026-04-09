@@ -212,6 +212,9 @@ describe("google provider plugin hooks", () => {
           name: "Gemma 3 1B Instruct",
           contextWindow: 32_000,
           input: ["text"],
+          compat: {
+            supportsTools: false,
+          },
         }),
         expect.objectContaining({
           provider: "google",
@@ -219,6 +222,9 @@ describe("google provider plugin hooks", () => {
           name: "Gemma 3 4B Instruct",
           contextWindow: 128_000,
           input: ["text", "image"],
+          compat: {
+            supportsTools: false,
+          },
         }),
         expect.objectContaining({
           provider: "google",
@@ -226,6 +232,9 @@ describe("google provider plugin hooks", () => {
           name: "Gemma 3 12B Instruct",
           contextWindow: 128_000,
           input: ["text", "image"],
+          compat: {
+            supportsTools: false,
+          },
         }),
         expect.objectContaining({
           provider: "google",
@@ -233,6 +242,9 @@ describe("google provider plugin hooks", () => {
           name: "Gemma 3 27B Instruct",
           contextWindow: 128_000,
           input: ["text", "image"],
+          compat: {
+            supportsTools: false,
+          },
         }),
         expect.objectContaining({
           provider: "google",
@@ -240,6 +252,9 @@ describe("google provider plugin hooks", () => {
           name: "Gemma 3n E4B Instruct",
           contextWindow: 32_000,
           input: ["text", "image"],
+          compat: {
+            supportsTools: false,
+          },
         }),
       ]),
     );
