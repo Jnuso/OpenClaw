@@ -237,6 +237,7 @@ describe("resolveGoogleGeminiForwardCompatModel", () => {
       id: "gemma-4-26b-a4b-it",
       reasoning: true,
       compat: {
+        supportsDeveloperRole: false,
         supportsTools: false,
       },
     });
@@ -257,6 +258,7 @@ describe("resolveGoogleGeminiForwardCompatModel", () => {
       id: "gemma-3-4b-it",
       reasoning: false,
       compat: {
+        supportsDeveloperRole: false,
         supportsTools: false,
       },
     });

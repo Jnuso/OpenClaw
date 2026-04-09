@@ -26,6 +26,7 @@ const GOOGLE_GEMMA_MODEL_CATALOG = [
     contextWindow: 32_000,
     input: ["text"],
     compat: {
+      supportsDeveloperRole: false,
       supportsTools: false,
     },
   },
@@ -36,6 +37,7 @@ const GOOGLE_GEMMA_MODEL_CATALOG = [
     contextWindow: 128_000,
     input: ["text", "image"],
     compat: {
+      supportsDeveloperRole: false,
       supportsTools: false,
     },
   },
@@ -46,6 +48,7 @@ const GOOGLE_GEMMA_MODEL_CATALOG = [
     contextWindow: 128_000,
     input: ["text", "image"],
     compat: {
+      supportsDeveloperRole: false,
       supportsTools: false,
     },
   },
@@ -56,6 +59,7 @@ const GOOGLE_GEMMA_MODEL_CATALOG = [
     contextWindow: 128_000,
     input: ["text", "image"],
     compat: {
+      supportsDeveloperRole: false,
       supportsTools: false,
     },
   },
@@ -66,6 +70,7 @@ const GOOGLE_GEMMA_MODEL_CATALOG = [
     contextWindow: 32_000,
     input: ["text", "image"],
     compat: {
+      supportsDeveloperRole: false,
       supportsTools: false,
     },
   },

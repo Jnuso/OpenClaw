@@ -213,6 +213,7 @@ describe("google provider plugin hooks", () => {
           contextWindow: 32_000,
           input: ["text"],
           compat: {
+            supportsDeveloperRole: false,
             supportsTools: false,
           },
         }),
@@ -223,6 +224,7 @@ describe("google provider plugin hooks", () => {
           contextWindow: 128_000,
           input: ["text", "image"],
           compat: {
+            supportsDeveloperRole: false,
             supportsTools: false,
           },
         }),
@@ -233,6 +235,7 @@ describe("google provider plugin hooks", () => {
           contextWindow: 128_000,
           input: ["text", "image"],
           compat: {
+            supportsDeveloperRole: false,
             supportsTools: false,
           },
         }),
@@ -243,6 +246,7 @@ describe("google provider plugin hooks", () => {
           contextWindow: 128_000,
           input: ["text", "image"],
           compat: {
+            supportsDeveloperRole: false,
             supportsTools: false,
           },
         }),
@@ -253,6 +257,7 @@ describe("google provider plugin hooks", () => {
           contextWindow: 32_000,
           input: ["text", "image"],
           compat: {
+            supportsDeveloperRole: false,
             supportsTools: false,
           },
         }),

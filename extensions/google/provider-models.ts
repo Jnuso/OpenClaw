@@ -153,6 +153,7 @@ export function resolveGoogleGeminiForwardCompatModel(params: {
     };
     patch = {
       compat: {
+        supportsDeveloperRole: false,
         supportsTools: false,
       },
     };
